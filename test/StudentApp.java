@@ -26,3 +26,10 @@ public class StudentApp {
 		}
 	}
 }
+
+
+class Test{}
+
+void main() {}
+
+if
