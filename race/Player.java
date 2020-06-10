@@ -18,6 +18,6 @@ public class Player {
 	}
 	
 	public void showRecord() {
-		System.out.println("º±ºˆ: " + name + ", ±‚∑œ: " + record +"√ ");
+		System.out.println("Ïù¥Î¶Ñ: " + name + ", Í∏∞Î°ù: " + record +"Ï¥à");
 	}
 }	

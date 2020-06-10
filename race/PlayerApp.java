@@ -8,10 +8,10 @@ public class PlayerApp {
 		Player[] players = new Player[3];
 		for(int i = 0; i < players.length; i++) {
 			Player player = new Player();
-			System.out.println("ÀÌ¸§: ");
+			System.out.println("ì´ë¦„: ");
 			String name = scanner.next();
 			player.setName(name);
-			System.out.println("100M ±â·Ï: ");
+			System.out.println("100M ê¸°ë¡: ");
 			int time = scanner.nextInt();
 			player.setRecord(time);
 			players[i] = player;
@@ -35,7 +35,7 @@ public class PlayerApp {
 				ranking[0] = players[2];
 			}
 		}
-		System.out.println("1µîÀº " + ranking[0].getName());
+		System.out.println("1ë“±ì€ " + ranking[0].getName());
 	}
 }
 
