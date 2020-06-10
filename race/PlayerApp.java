@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PlayerApp {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		Player[] players = new Player[3]; // 참가번호 0,1,2
+		Player[] players = new Player[3];
 		for(int i = 0; i < players.length; i++) {
 			Player player = new Player();
 			System.out.println("이름: ");
