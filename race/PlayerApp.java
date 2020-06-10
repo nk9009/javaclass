@@ -21,7 +21,7 @@ public class PlayerApp {
 			players[i].showRecord();
 		}	
 		
-		Player[] ranking = new Player[3]; // ranking 기록에 의한 순서
+		Player[] ranking = new Player[3]; 
 		if(players[0].getRecord() < players[1].getRecord()) {
 			if(players[0].getRecord() < players[2].getRecord()) {
 				ranking[0] = players[0];
