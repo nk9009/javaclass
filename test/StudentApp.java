@@ -8,13 +8,13 @@ public class StudentApp {
 		Student[] students = new Student[3];
 		for(int i = 0; i < students.length; i++) { 
 			Student student = new Student();
-			System.out.println("ÀÌ¸§: ");
+			System.out.println("ï¿½Ì¸ï¿½: ");
 			student.setName(scanner.next()); // 
-			System.out.println("±¹¾î: ");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½: ");
 			student.setKor(scanner.nextInt());
-			System.out.println("¿µ¾î: ");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½: ");
 			student.setEng(scanner.nextInt());
-			System.out.println("¼öÇĞ: ");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½: ");
 			student.setMath(scanner.nextInt());
 			student.sum();
 			student.avg();
@@ -26,10 +26,3 @@ public class StudentApp {
 		}
 	}
 }
-
-
-class Test{}
-
-void main() {}
-
-if

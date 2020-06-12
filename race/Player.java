@@ -1,7 +1,7 @@
 package race;
 
 public class Player {
-	private String name;
+	private String name; // 인스턴스 변수는 초기화하지 않고 로컬 변수는 반드시 초기화 해야 한다
 	private int record;
 	
 	public void setName(String name) { 
